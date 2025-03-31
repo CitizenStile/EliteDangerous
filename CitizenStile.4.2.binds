@@ -366,11 +366,11 @@
 	</SecondaryFire>
 	<CycleFireGroupNext>
 		<Primary Device="Keyboard" Key="Key_N" />
-		<Secondary Device="SaitekX56Throttle" Key="Joy_28" />
+		<Secondary Device="SaitekX56Throttle" Key="Joy_30" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="SaitekX56Throttle" Key="Joy_29" />
+		<Secondary Device="SaitekX56Throttle" Key="Joy_31" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
 		<Primary Device="Keyboard" Key="Key_U" />
@@ -568,7 +568,7 @@
 		<Secondary Device="SaitekX56Joystick" Key="Joy_1" />
 	</UI_Select>
 	<UI_Back>
-		<Primary Device="Keyboard" Key="Key_Tab" />
+		<Primary Device="Keyboard" Key="Key_Backspace" />
 		<Secondary Device="SaitekX56Joystick" Key="Joy_2" />
 	</UI_Back>
 	<UI_Toggle>
@@ -1453,7 +1453,7 @@
 	<MouseHumanoidYMode Value="Bindings_MousePitch" />
 	<MouseHumanoidSensitivity Value="3.00000000" />
 	<HumanoidForwardAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="SaitekX56Throttle" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidForwardAxis>
@@ -1466,7 +1466,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidBackwardButton>
 	<HumanoidStrafeAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="SaitekX56Throttle" Key="Joy_RYAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidStrafeAxis>
@@ -1479,7 +1479,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidStrafeRightButton>
 	<HumanoidRotateAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidRotateAxis>
@@ -1493,7 +1493,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidRotateRightButton>
 	<HumanoidPitchAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidPitchAxis>
@@ -1508,7 +1508,7 @@
 	</HumanoidPitchDownButton>
 	<HumanoidSprintButton>
 		<Primary Device="Keyboard" Key="Key_LeftShift" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX56Joystick" Key="Joy_6" />
 		<ToggleOn Value="1" />
 	</HumanoidSprintButton>
 	<HumanoidWalkButton>
@@ -1518,16 +1518,16 @@
 	</HumanoidWalkButton>
 	<HumanoidCrouchButton>
 		<Primary Device="Keyboard" Key="Key_LeftControl" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX56Joystick" Key="Joy_POV1Down" />
 		<ToggleOn Value="1" />
 	</HumanoidCrouchButton>
 	<HumanoidJumpButton>
 		<Primary Device="Keyboard" Key="Key_Space" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX56Joystick" Key="Joy_5" />
 	</HumanoidJumpButton>
 	<HumanoidPrimaryInteractButton>
 		<Primary Device="Keyboard" Key="Key_E" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX56Joystick" Key="Joy_1" />
 	</HumanoidPrimaryInteractButton>
 	<HumanoidSecondaryInteractButton>
 		<Primary Device="Keyboard" Key="Key_F" />
@@ -1537,16 +1537,20 @@
 		<Primary Device="Keyboard" Key="Key_LeftAlt">
 			<Hold Value="1" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX56Joystick" Key="Joy_2">
+			<Hold Value="1" />
+		</Secondary>
 		<ToggleOn Value="0" />
 	</HumanoidItemWheelButton>
 	<HumanoidEmoteWheelButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_B">
+			<Hold Value="1" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</HumanoidEmoteWheelButton>
 	<HumanoidUtilityWheelCycleMode>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Mouse" Key="Mouse_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidUtilityWheelCycleMode>
 	<HumanoidItemWheelButton_XAxis>
@@ -1586,7 +1590,7 @@
 		<ToggleOn Value="0" />
 	</HumanoidZoomButton>
 	<HumanoidThrowGrenadeButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_X" />
 		<Secondary Device="Keyboard" Key="Key_G" />
 	</HumanoidThrowGrenadeButton>
 	<HumanoidMeleeButton>
@@ -1694,11 +1698,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidPing>
 	<GalaxyMapOpen_Humanoid>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX56Throttle" Key="Joy_16" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen_Humanoid>
 	<SystemMapOpen_Humanoid>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX56Throttle" Key="Joy_17" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen_Humanoid>
 	<FocusCommsPanel_Humanoid>
@@ -1713,7 +1717,9 @@
 		<Primary Device="Keyboard" Key="Key_Q">
 			<Hold Value="1" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX56Joystick" Key="Joy_5">
+			<Hold Value="1" />
+		</Secondary>
 	</HumanoidOpenAccessPanelButton>
 	<HumanoidConflictContextualUIButton>
 		<Primary Device="Keyboard" Key="Key_E" />
@@ -1744,11 +1750,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</StoreCamZoomOut>
 	<StoreToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Tab" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</StoreToggle>
 	<HumanoidEmoteSlot1>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_B" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidEmoteSlot1>
 	<HumanoidEmoteSlot2>
