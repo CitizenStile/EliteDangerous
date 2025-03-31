@@ -3,7 +3,7 @@
 Repository for Drait & CS to store their X56 HOTAS keybindings
 
 Keybindings located at:
-%LOCALAPPDATA%\Frontier Developments\Elite Dangerous\Options\Bindings
+%AppData%\..\Local\Frontier Developments\Elite Dangerous\Options\Bindings
 
 ## Renaming keybindings files:
 1. Within Elite Dangerous, click Options -> Controls -> General Controls
